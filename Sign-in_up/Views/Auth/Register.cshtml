@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+@model RegisterDTO
+
+    <div class="box">
+        <h2>Register</h2>
+        <form asp-action="Register" method="post">
+            <div class="inputBox">
+                <input type="text" asp-for="FirstName" required>
+                <label>First Name</label>
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <div class="inputBox">
+                <input type="text" asp-for="LastName" required>
+                <label>Last Name</label>
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <div class="inputBox">
+                <input type="email" asp-for="Email" required>
+                <label>Email</label>
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="inputBox">
+                <input type="password" asp-for="Password" required>
+                <label>Password</label>
+                <span asp-validation-for="Password"></span>
+            </div>
+            <div class="inputBox">
+                <input type="password" asp-for="PasswordConfirmation" required>
+                <label>Confirm Password</label>
+                <span asp-validation-for="PasswordConfirmation"></span>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+        <h4>Already have an account? <a href="/auth/login">Login</a></h4>
+    </div>
+

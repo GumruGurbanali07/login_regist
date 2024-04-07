@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "p1UP1SwKHw6fzFq89VvZLLLD6eoUIIFf0BmdoZxtM5w=",
+  "Source": "Sign-in_up",
+  "BasePath": "_content/Sign-in_up",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Sign-in_up\\wwwroot",
+      "Source": "Sign-in_up",
+      "ContentRoot": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\wwwroot\\",
+      "BasePath": "_content/Sign-in_up",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Sign-in_up.styles.css",
+      "SourceId": "Sign-in_up",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Sign-in_up",
+      "RelativePath": "Sign-in_up.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Sign-in_up.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Sign-in_up.bundle.scp.css",
+      "SourceId": "Sign-in_up",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Sign-in_up",
+      "RelativePath": "Sign-in_up.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Sign-in_up.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\wwwroot\\Auth\\login-form-5.css",
+      "SourceId": "Sign-in_up",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sheki-S\\source\\repos\\Sign-in_up\\Sign-in_up\\wwwroot\\",
+      "BasePath": "_content/Sign-in_up",
+      "RelativePath": "Auth/login-form-5.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Auth\\login-form-5.css"
+    }
+  ]
+}

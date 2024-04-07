@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+@model Sign_in_up.DTOs.LoginDTO
+
+
+    <div class="box">
+        <h2>Login</h2>
+        <form asp-action="Login" method="post">
+            <div class="inputBox">
+                <input type="email" asp-for="Email" required>
+                <label>Email</label>
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="inputBox">
+                <input type="password" asp-for="Password" required>
+                <label>Password</label>
+                <span asp-validation-for="Password"></span>
+            </div>
+            <div class="inputBox">
+                <input type="checkbox" asp-for="RememberMe">
+                <label>Remember me</label>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+        <a href="#" class="a">Forget Password</a>
+        <h5>Sign Up Using</h5>
+        <ul>
+            <li>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-google"></i>
+                </a>
+            </li>
+        </ul>
+        <h4>Don't have an account? <a href="/auth/register">Sign Up</a></h4>
+    </div>
+
